@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9086C11298BA0A9000C4121 /* ListMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9086C10298BA0A9000C4121 /* ListMoviesViewController.swift */; };
 		E9CB8D89298B9B3B00979431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB8D88298B9B3B00979431 /* AppDelegate.swift */; };
 		E9CB8D8B298B9B3B00979431 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB8D8A298B9B3B00979431 /* SceneDelegate.swift */; };
 		E9CB8D8D298B9B3B00979431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB8D8C298B9B3B00979431 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E9086C10298BA0A9000C4121 /* ListMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMoviesViewController.swift; sourceTree = "<group>"; };
 		E9CB8D85298B9B3B00979431 /* Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CB8D88298B9B3B00979431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9CB8D8A298B9B3B00979431 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E9086C0F298BA05D000C4121 /* ListMovies */ = {
+			isa = PBXGroup;
+			children = (
+				E9086C10298BA0A9000C4121 /* ListMoviesViewController.swift */,
+			);
+			path = ListMovies;
+			sourceTree = "<group>";
+		};
 		E9CB8D7C298B9B3B00979431 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		E9CB8D87298B9B3B00979431 /* Movies */ = {
 			isa = PBXGroup;
 			children = (
+				E9086C0F298BA05D000C4121 /* ListMovies */,
 				E9CB8D88298B9B3B00979431 /* AppDelegate.swift */,
 				E9CB8D8A298B9B3B00979431 /* SceneDelegate.swift */,
 				E9CB8D8C298B9B3B00979431 /* ViewController.swift */,
@@ -261,6 +272,7 @@
 				E9CB8D8D298B9B3B00979431 /* ViewController.swift in Sources */,
 				E9CB8D89298B9B3B00979431 /* AppDelegate.swift in Sources */,
 				E9CB8D8B298B9B3B00979431 /* SceneDelegate.swift in Sources */,
+				E9086C11298BA0A9000C4121 /* ListMoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
